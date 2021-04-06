@@ -22,7 +22,7 @@
  * ]
  */
 
-function minesweeper(matrix) {
+function minesweeper(/* matrix */) {
   // let copy = [];
   // matrix.forEach((arr) => {
   //   arr.forEach((el) => {
@@ -110,6 +110,7 @@ function minesweeper(matrix) {
   //   res.push(copy.slice(i, i + 3));
   // }
   // return res;
+  throw new Error('Not implemented');
 }
 
 module.exports = minesweeper;
