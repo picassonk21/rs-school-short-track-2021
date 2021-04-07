@@ -20,6 +20,7 @@
  * }
  *
  */
+
 function getDNSStats(/* domains */) {
   throw new Error('Not implemented');
 }
